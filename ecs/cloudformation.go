@@ -43,7 +43,7 @@ import (
 	"sigs.k8s.io/kustomize/kyaml/yaml"
 	"sigs.k8s.io/kustomize/kyaml/yaml/merge2"
 
-	"github.com/docker/compose-ecs/utils"
+	"github.com/apnarm/compose-ecs/utils"
 )
 
 func (b *ComposeECS) Convert(ctx context.Context, project *types.Project, options api.ConvertOptions) ([]byte, error) {

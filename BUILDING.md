@@ -122,4 +122,4 @@ To create a new release:
 
 Pushing the tag will automatically create a new release and make binaries for
 Windows, macOS, and Linux available for download on the
-[releases page](https://github.com/docker/compose-ecs/releases).
+[releases page](https://github.com/apnarm/compose-ecs/releases).

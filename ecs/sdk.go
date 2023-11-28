@@ -57,8 +57,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/docker/compose-ecs/api/secrets"
-	"github.com/docker/compose-ecs/internal"
+	"github.com/apnarm/compose-ecs/api/secrets"
+	"github.com/apnarm/compose-ecs/internal"
 )
 
 type sdk struct {

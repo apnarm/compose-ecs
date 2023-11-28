@@ -1,6 +1,6 @@
 # :warning:
-Code in this repository has been extracted from deprecated 
-[Cloud integrations](https://github.com/docker/compose-cli). 
+Code in this repository has been extracted from deprecated
+[Cloud integrations](https://github.com/docker/compose-cli).
 It is **not** intended to become a Docker product, but to be (maybe?) adopted by
 community and moved to another github organization.
 
@@ -48,8 +48,8 @@ Access service logs using `compose-ecs logs`like you would do with docker compos
 $compose-ecs logs
 jenkins  | Running from: /usr/share/jenkins/jenkins.war
 jenkins  | webroot: /var/jenkins_home/war
-... 
-jenkins  | 2023-04-21 09:47:38.075+0000 [id=29]	INFO	jenkins.install.SetupWizard#init: 
+...
+jenkins  | 2023-04-21 09:47:38.075+0000 [id=29]	INFO	jenkins.install.SetupWizard#init:
 jenkins  | *************************************************************
 jenkins  | *************************************************************
 jenkins  | *************************************************************
@@ -106,5 +106,5 @@ $ compose-ecs convert
 ```
 
 
-Please create [issues](https://github.com/docker/compose-ecs/issues) to leave feedback.
+Please create [issues](https://github.com/apnarm/compose-ecs/issues) to leave feedback.
 

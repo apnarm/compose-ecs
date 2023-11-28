@@ -15,7 +15,7 @@
 GOOS?=$(shell go env GOOS)
 GOARCH?=$(shell go env GOARCH)
 
-PKG_NAME := github.com/docker/compose-ecs
+PKG_NAME := github.com/apnarm/compose-ecs
 
 GO_LDFLAGS ?= -s -w -X ${PKG}/internal.Version=${VERSION} -X ${PKG}/internal.GitCommit=${COMMIT}
 

@@ -1,16 +1,16 @@
 # Backends shouldn't depend on other backends or the cli
 - path: ./aci
   forbiddenImports:
-    - github.com/docker/compose-ecs/cli
-    - github.com/docker/compose-ecs/ecs
-    - github.com/docker/compose-ecs/local
+    - github.com/apnarm/compose-ecs/cli
+    - github.com/apnarm/compose-ecs/ecs
+    - github.com/apnarm/compose-ecs/local
 - path: ./ecs
   forbiddenImports:
-    - github.com/docker/compose-ecs/aci
-    - github.com/docker/compose-ecs/cli
-    - github.com/docker/compose-ecs/local
+    - github.com/apnarm/compose-ecs/aci
+    - github.com/apnarm/compose-ecs/cli
+    - github.com/apnarm/compose-ecs/local
 - path: ./local
   forbiddenImports:
-    - github.com/docker/compose-ecs/aci
-    - github.com/docker/compose-ecs/cli
-    - github.com/docker/compose-ecs/ecs
+    - github.com/apnarm/compose-ecs/aci
+    - github.com/apnarm/compose-ecs/cli
+    - github.com/apnarm/compose-ecs/ecs

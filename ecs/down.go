@@ -22,7 +22,7 @@ import (
 	"github.com/docker/compose/v2/pkg/api"
 	"github.com/docker/compose/v2/pkg/progress"
 
-	"github.com/docker/compose-ecs/utils"
+	"github.com/apnarm/compose-ecs/utils"
 )
 
 func (b *ComposeECS) Down(ctx context.Context, projectName string, options api.DownOptions) error {

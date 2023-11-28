@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/docker/compose-ecs/internal"
+	"github.com/apnarm/compose-ecs/internal"
 )
 
 const formatOpt = "format"

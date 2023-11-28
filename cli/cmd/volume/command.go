@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/compose-ecs/api/backend"
-	"github.com/docker/compose-ecs/ecs"
+	"github.com/apnarm/compose-ecs/api/backend"
+	"github.com/apnarm/compose-ecs/ecs"
 
 	format "github.com/docker/compose/v2/cmd/formatter"
 	"github.com/docker/compose/v2/pkg/progress"

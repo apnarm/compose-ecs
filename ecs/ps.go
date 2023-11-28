@@ -21,7 +21,7 @@ import (
 
 	"github.com/docker/compose/v2/pkg/api"
 
-	"github.com/docker/compose-ecs/utils"
+	"github.com/apnarm/compose-ecs/utils"
 )
 
 func (b *ComposeECS) Ps(ctx context.Context, projectName string, options api.PsOptions) ([]api.ContainerSummary, error) {

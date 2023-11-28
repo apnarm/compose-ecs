@@ -19,8 +19,8 @@ package ecs
 import (
 	"os"
 
-	"github.com/docker/compose-ecs/api/secrets"
-	"github.com/docker/compose-ecs/api/volumes"
+	"github.com/apnarm/compose-ecs/api/secrets"
+	"github.com/apnarm/compose-ecs/api/volumes"
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/docker/compose/v2/pkg/api"

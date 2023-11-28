@@ -21,7 +21,7 @@ import (
 
 	"github.com/docker/compose/v2/pkg/api"
 
-	"github.com/docker/compose-ecs/utils"
+	"github.com/apnarm/compose-ecs/utils"
 )
 
 func (b *ComposeECS) Logs(ctx context.Context, projectName string, consumer api.LogConsumer, options api.LogOptions) error {

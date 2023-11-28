@@ -26,10 +26,10 @@ import (
 	"github.com/docker/compose/v2/cmd/compose"
 	"github.com/spf13/cobra"
 
-	"github.com/docker/compose-ecs/api/backend"
-	"github.com/docker/compose-ecs/cli/cmd"
-	"github.com/docker/compose-ecs/cli/cmd/volume"
-	"github.com/docker/compose-ecs/ecs"
+	"github.com/apnarm/compose-ecs/api/backend"
+	"github.com/apnarm/compose-ecs/cli/cmd"
+	"github.com/apnarm/compose-ecs/cli/cmd/volume"
+	"github.com/apnarm/compose-ecs/ecs"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/docker/compose-ecs
+module github.com/apnarm/compose-ecs
 
 go 1.19
 

@@ -19,12 +19,12 @@ with a fresh install of Ubuntu 20.04.
 You can install the Compose CLI using the install script:
 
 ```console
-curl -L https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh
+curl -L https://raw.githubusercontent.com/apnarm/compose-ecs/main/scripts/install/install_linux.sh | sh
 ```
 
 ## Manual install
 
-You can download the Compose CLI from [latest release](https://github.com/docker/compose-ecs/releases/latest).
+You can download the Compose CLI from [latest release](https://github.com/apnarm/compose-ecs/releases/latest).
 
 You will then need to rename it and make it executable (the commands below assumes you downloaded the `amd64` version of the binary):
 

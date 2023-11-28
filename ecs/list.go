@@ -22,7 +22,7 @@ import (
 
 	"github.com/docker/compose/v2/pkg/api"
 
-	"github.com/docker/compose-ecs/utils"
+	"github.com/apnarm/compose-ecs/utils"
 )
 
 func (b *ComposeECS) List(ctx context.Context, opts api.ListOptions) ([]api.Stack, error) {

@@ -26,7 +26,7 @@ import (
 	"github.com/docker/compose/v2/pkg/api"
 	"github.com/pkg/errors"
 
-	"github.com/docker/compose-ecs/api/volumes"
+	"github.com/apnarm/compose-ecs/api/volumes"
 )
 
 func (b *ComposeECS) createNFSMountTarget(project *types.Project, resources awsResources, template *cloudformation.Template) {

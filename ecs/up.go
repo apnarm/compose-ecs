@@ -28,7 +28,7 @@ import (
 	"github.com/docker/compose/v2/pkg/progress"
 	"github.com/sirupsen/logrus"
 
-	"github.com/docker/compose-ecs/utils"
+	"github.com/apnarm/compose-ecs/utils"
 )
 
 func (b *ComposeECS) Up(ctx context.Context, project *types.Project, options api.UpOptions) error {
